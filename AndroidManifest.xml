@@ -4,7 +4,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="15" />
 
     <application
@@ -19,6 +19,13 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".DisplayNearestParkingLotActivity"
+            android:label="@string/title_activity_display_nearest_parking_lot" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.legend.taipei.easy.parking.MainActivity" />
         </activity>
     </application>
 

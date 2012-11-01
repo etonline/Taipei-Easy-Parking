@@ -5,5 +5,6 @@
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">Taipei Easy Parking</string>
     <string name="button_find_nearest_parking_lot">Find Nearest Parking Lot</string>
+    <string name="title_activity_display_nearest_parking_lot">Nearest Parking Lot</string>
 
 </resources>
